@@ -1,0 +1,107 @@
+/*
+ * sample03.html用のCSS定義
+ */
+
+
+/*
+ * body全体の定義
+ *   背景署の定義：　background-color
+ */
+body   {background-color: #fffacd;}
+
+/*
+ * ログインユーザ名の定義
+ * <div id="user-info">
+ *   フォントサイズ：　
+ *   パディング：
+ */
+.user-info             {font-size: 16px;
+                      font-weight: normal;
+                      padding: 10px 30px 5px 30px;
+                      }
+/*
+ * imgの装飾
+ */
+figure.photo-shouhin  {text-align: center;
+                      margin: 5px 5px 5px 5px;
+                      }
+
+figure.photo-shouhin img {width: 130px}
+
+/*
+ * Tableの装飾
+ */
+caption               {font-weight: bold;
+                      background-color: #ffdead;
+                      border-radius: 5px;
+                      padding: 3px;
+                      margin-bottom: 5px;
+                      }
+
+table, th, td         {border: solid 2px #ff8c00}
+table                 {border-collapse: collapse;
+                      margin-left: auto;
+                      margin-right: auto;
+                      margin-bottom: 16px;
+                      }
+th, td                {padding: 5px 10px 5px 10px}
+th                    {width: 120px;
+                      background-color: #ffcb63;
+                      text-align: center;
+                      }
+td                    {width: 100px;
+                      background-color: #ffefd5;
+                      text-align: right;
+                      }
+
+/*
+ * INPUT TEXTの定義
+ */
+input[type="text"]    {
+                      /* padding: 1px 1px 1px 1px; */
+                      padding-right: 8px;
+                      font-size: 1.1em;
+                      font-family: sans-serif;
+                      font-weight: normal;
+                      color: #000000;
+                      border: solid 1px #888888;
+                      /* margin: 0 0 20px; */
+                      width: 60px;
+                      background-color: #fff1db;
+                      line-height: 1;
+                      text-align: right;
+                      }
+
+/*
+ *
+ */
+input[type="checkbox"]    {background-color: #ffdead;
+                          line-height: 2;
+                          }
+
+/*
+ * <div class="check-delete">の定義
+ */
+.check-delete         {text-align: center;}
+
+/*
+ * <div id="submit-right">の定義
+ */
+.submit-right         {text-align: right;}
+
+/*
+ * <a>の定義
+ */
+a                     {background-color: #ffaa00;
+                      background-image: linear-gradient(
+                        to bottom,
+                        #ffe7b8 0%,
+                        #ffaa00 100%
+                        );
+                      padding: 10px 80px;
+
+                      border-radius: 10px;
+                      color: #000000;
+                      font-weight: bold;
+                      text-decoration: none;
+                      }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>まるまるショップ</title>
+</head>
+<body>
+    ようこそゲスト様　<br>
+    
+    カートの中身<br>
+    <br>
+<!--    <form method="post" action="kazu_change.php"> -->
+    <table border="1">
+        <tr>
+            <td>商品</td>
+            <td>商品画像</td>
+            <td>価格</td>
+            <td>数量</td>
+            <td>小計</td>
+            <td>削除</td>
+        </tr>
+        <tr>
+            <td>りんご</td>
+            <td><img src="gazou/a04_074.JPG"></td>
+            <td>280円</td>
+            <td><input type="text" name="kazu0" value="1"></td>
+            <td>280円</td>
+            <td><input type="checkbox" name="sakujo0"></td>
+        </tr>
+        <tr>
+            <td>みかん</td>
+            <td><img src="gazou/a04_094.JPG"></td>
+            <td>80円</td>
+            <td><input type="text" name="kazu1" value="1"></td>
+            <td>80円</td>
+            <td><input type="checkbox" name="sakujo1"></td>
+        </tr>
+    </table>
+<!--    <input type="hidden" name="max" value="2"> -->
+<!--    <input type="submit" value="数量変更"><br> -->
+<!--    <input type="button" onclick="history.back()" value="戻る"> -->
+<!--    </form> -->
+    <br>
+    <a href="shop_form.php">ご購入手続きへ進む</a><br>
+</body>
+</html>
