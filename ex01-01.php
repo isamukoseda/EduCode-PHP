@@ -15,7 +15,11 @@
     echo "Area = ".$total;
     echo PHP_EOL;
 
-    echo sprintf("%.3f", (2 * 2 * pi()));
+    echo sprintf("%.3f", ( squre(2) * pi()));
     echo PHP_EOL;
+    
+    function squre($a) {
+        return $a * $a;
+    }
 ?>
  

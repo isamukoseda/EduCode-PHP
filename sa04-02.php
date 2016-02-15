@@ -5,7 +5,7 @@
  * 
  *
  */
-    func_recursion(1);
+    func_recursion(5);
 
     function func_recursion($a) {
         if($a < 10) {

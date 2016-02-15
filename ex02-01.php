@@ -8,8 +8,9 @@
     $list=array();
     for($i=1, $j=0; $i<=100; $i++) {
         if($i%2 == 0) {
-            $list[$j] = $i;
-            $j++;
+            //$list[$j] = $i;
+            //$j++;
+            $list[] = $i;
         }
     }
     

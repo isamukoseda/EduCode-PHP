@@ -27,5 +27,7 @@
     ];
     var_dump($array);
     echo PHP_EOL;
+    print_r($array);
+    echo PHP_EOL;
     
 ?>

@@ -11,7 +11,8 @@
     echo gettype($year)." : ".gettype($company).PHP_EOL;
     
     $str = $year.$company;
-    echo $str;
+    echo $str.PHP_EOL;
+    echo gettype($str);
     echo PHP_EOL;
 
 ?>
