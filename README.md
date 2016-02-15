@@ -34,4 +34,15 @@ To watch some training videos, visit http://www.youtube.com/user/c9ide
 
 LAMP(Linux, Apache, MySQL, PHP)で作るWebアプリケーションを学習する為に作成したコード置き場
 
+ Directory:
+    1) Sample
+        サンプルコードとして説明する際に利用したファイルが置かれています。
+        
+    2) Test
+        文法やロジック（アルゴリズム）を確認する際に作成したファイルが置かれています。
+        
+    3) Exercises
+        演習や課題のファイルが置かれています。
+        
+
 >>>>>>> 2e94103986630a675c39a21924d69dfcdb50a0ae
