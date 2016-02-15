@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
@@ -28,3 +29,9 @@ The Cloud9 IDE team
 
 Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
 To watch some training videos, visit http://www.youtube.com/user/c9ide
+=======
+# EduCode-PHP
+
+LAMP(Linux, Apache, MySQL, PHP)で作るWebアプリケーションを学習する為に作成したコード置き場
+
+>>>>>>> 2e94103986630a675c39a21924d69dfcdb50a0ae
