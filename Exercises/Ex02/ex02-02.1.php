@@ -20,7 +20,7 @@ function isPrime($n)
     // Start
     $start_time = microtime(TRUE);
     $primenum = array();
-    for($i=2; $i<=1000; $i++) {
+    for($i=2; $i<=100; $i++) {
         if(isPrime($i) == TRUE) {
             $primenum[] = $i;
             //echo $i." , ";
