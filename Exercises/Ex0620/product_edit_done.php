@@ -9,10 +9,11 @@
         <!-- PHP文の開始 -->
         <?php
         try {
-            var_dump($_POST);
+            // var_dump($_POST);
+            // print "<P>";
             
             // 連想配列となっている$_POST配列から、'code','name'と'price'キーの内容を取得して、それぞれ変数に格納する
-            $pro_code = $_POST['pcode'];         // 商品コードを変数($pro_code)に代入する
+            $pro_code = $_POST['code'];         // 商品コードを変数($pro_code)に代入する
             $pro_name = $_POST['name'];         // 商品名を変数($pro_name)に代入する
             $pro_price = $_POST['price'];          // 価格を変数($pro_price)に代入する
 
@@ -27,7 +28,7 @@
             $dbh = new PDO($dsn, $user, $password);
             $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-            // 商品テーブル($mst_product)から商品コードに一致するレコードのnameとpriceをUPDATE文を使って変更する
+            // 商品テーブル(shop_product)から商品コードに一致するレコードのnameとpriceをUPDATE文を使って変更する
             $sql = 'UPDATE shop_product SET name=?,price=? WHERE code=?';    // SQL文の設定。変数は?で指定する
             $stmt = $dbh->prepare($sql);                                    // SQL文の展開
             $data[] = $pro_name;                                            // SQL文の変数に商品コードを設定する
@@ -47,6 +48,7 @@
             // MySQLとの接続を切断する
             $dbh = null;
             
+            //print "Code=$pro_code / Name=$pro_name / Price=$pro_price<P>";
             print '修正しました。<br>';
         } catch (Exception$e) {
             // エラー発生時の処理を記述

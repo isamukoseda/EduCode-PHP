@@ -20,8 +20,8 @@
             $dbh = new PDO($dsn, $user, $password);                         // PDOインスタンスを生成(new)することで、実際にMySQLへ接続処理が実行される
             $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             
-            // 商品テーブル($mst_product)から商品コードに一致するレコードのnameとpriceをSELECT文を使って取得する
-            $sql = 'SELECT name,price FROM mst_product WHERE code=?';       // SQL文の設定。変数は?で指定する
+            // 商品テーブル(shop_product)から商品コードに一致するレコードのnameとpriceをSELECT文を使って取得する
+            $sql = 'SELECT name,price FROM shop_product WHERE code=?';       // SQL文の設定。変数は?で指定する
             $stmt = $dbh->prepare($sql);                                    // SQL文の展開
             $data[] = $pro_code;                                            // SQL文の変数に商品コードを設定する
             $stmt->execute($data);                                          // SQL文の実行

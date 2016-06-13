@@ -22,14 +22,14 @@
             //$pro_price=htmlspecialchars($pro_price);
 
             // MySQLに接続する（Database名はshop）
-            $dsn = 'mysql:dbname=shop;host=localhost;charset=utf8';         // Database名は、shop
+            $dsn = 'mysql:dbname=Shop;host=localhost;charset=utf8';         // Database名は、shop
             $user = 'shopadmin';                                            // ユーザ名は、shopadmin
             $password = 'AdminPassword';                                    // パスワードは、adminadmin
             $dbh = new PDO($dsn, $user, $password);                         // PDOインスタンスを生成(new)することで、実際にMySQLへ接続処理が実行される
             $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-            // mst_productテーブルにレコード（商品名と価格）を追加する
-            $sql = 'INSERT INTO mst_product(name,price) VALUES (?,?)';      // SQL文の設定。変数は?で指定する
+            // shop_productテーブルにレコード（商品名と価格）を追加する
+            $sql = 'INSERT INTO shop_product(name,price) VALUES (?,?)';      // SQL文の設定。変数は?で指定する
             $stmt = $dbh->prepare($sql);
             $data[] = $pro_name;                                            // 最初の変数に、商品名を設定する
             $data[] = $pro_price;                                           // 2番目の変数に、価格を設定する

@@ -18,7 +18,7 @@
             $dbh = new PDO($dsn, $user, $password);
             $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-            // mst_productテーブルから、code,name,priceを全て取得する
+            // shop_productテーブルから、code,name,priceを全て取得する
             $sql = 'SELECT code,name,price FROM shop_product';
             $stmt = $dbh->prepare($sql);
             $stmt->execute();
@@ -38,7 +38,7 @@
                     // レコードを全て読み終わったらwhileループを抜ける
                     break;
                 }
-                print '<input type="radio" name="procode" value="' . $rec['code'] . '">';   // ラジオボタンに商品コードを割り当てる
+                print '<input type="radio" name="pcode" value="' . $rec['code'] . '">';   // ラジオボタンに商品コードを割り当てる
                 print $rec['name'] . ' ... ';                                               // 商品名を表示
                 print $rec['price'] . '円';                                                 // 価格を表示
                 print '<br>';
