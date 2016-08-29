@@ -1,0 +1,28 @@
+[10-Jul-2016 16:24:54 UTC] PHP Warning:  move_uploaded_file(./gazou/a04_094.JPG): failed to open stream: No such file or directory in /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_check.php on line 50
+[10-Jul-2016 16:24:54 UTC] PHP Stack trace:
+[10-Jul-2016 16:24:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_check.php:0
+[10-Jul-2016 16:24:54 UTC] PHP   2. move_uploaded_file(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_check.php:50
+[10-Jul-2016 16:24:54 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpWND2zA' to './gazou/a04_094.JPG' in /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_check.php on line 50
+[10-Jul-2016 16:24:54 UTC] PHP Stack trace:
+[10-Jul-2016 16:24:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_check.php:0
+[10-Jul-2016 16:24:54 UTC] PHP   2. move_uploaded_file(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_check.php:50
+[10-Jul-2016 16:25:20 UTC] PHP Warning:  unlink(./gazou/mikan.JPG): No such file or directory in /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_done.php on line 60
+[10-Jul-2016 16:25:20 UTC] PHP Stack trace:
+[10-Jul-2016 16:25:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_done.php:0
+[10-Jul-2016 16:25:20 UTC] PHP   2. unlink(*uninitialized*) /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_done.php:60
+[10-Jul-2016 16:25:56 UTC] PHP Warning:  unlink(./gazou/grape.JPG): No such file or directory in /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_done.php on line 60
+[10-Jul-2016 16:25:56 UTC] PHP Stack trace:
+[10-Jul-2016 16:25:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_done.php:0
+[10-Jul-2016 16:25:56 UTC] PHP   2. unlink(*uninitialized*) /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_done.php:60
+[10-Jul-2016 16:26:26 UTC] PHP Warning:  unlink(./gazou/apple.JPG): No such file or directory in /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_done.php on line 60
+[10-Jul-2016 16:26:26 UTC] PHP Stack trace:
+[10-Jul-2016 16:26:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_done.php:0
+[10-Jul-2016 16:26:26 UTC] PHP   2. unlink(*uninitialized*) /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_done.php:60
+[11-Jul-2016 03:34:51 UTC] PHP Warning:  unlink(./gazou/a04_067.JPG): No such file or directory in /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_done.php on line 60
+[11-Jul-2016 03:34:51 UTC] PHP Stack trace:
+[11-Jul-2016 03:34:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_done.php:0
+[11-Jul-2016 03:34:51 UTC] PHP   2. unlink() /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_done.php:60
+[08-Aug-2016 03:35:04 UTC] PHP Warning:  unlink(./gazou/a04_094.JPG): No such file or directory in /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_done.php on line 60
+[08-Aug-2016 03:35:04 UTC] PHP Stack trace:
+[08-Aug-2016 03:35:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_done.php:0
+[08-Aug-2016 03:35:04 UTC] PHP   2. unlink(*uninitialized*) /home/ubuntu/workspace/Exercises/Ex0627/答え/product_edit_done.php:60
